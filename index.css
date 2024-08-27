@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-container{    
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    flex-flow: column wrap ;
+    justify-content: center;
+    align-content: center;
+    background-image: url(./assets/img/laptop-office-plant-black-background-top-view.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.headline > h1,h2{
+    color: white;
+    font-family: sans-serif;
+    ;
+}
+.headline > h1{
+    margin-left: 40px;
+}
+.desc > h2{
+    margin-left: 15px;
+}
+.middle-container{
+    display: grid;
+    flex-flow: column wrap;
+    background-color: #f7f7f7;
+    height: 60vh;
+    justify-content: center;
+}
+.myimg > img{
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+}
+.myimg{
+    margin-top: 40px;
+}
+.sum > h2{
+    color: #857A82;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.sum > p{
+    margin-left: 80px;
+    color:#7A8285;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.resume-container{
+    display: flex;
+    background-color: #f7f7f7;
+    justify-content: center;
+    gap:20px;
+}
+.education{
+    font-family: sans-serif;
+}
+.education > h2{
+    color: #7A8285;
+    margin-left: 150px;
+}
+
+.education > ul > li{
+    margin-top: 10px;
+    padding: 5px;
+    margin-right: 50px;
+}
+.skills{
+    font-family: sans-serif;
+}
+.skills >h2{
+    margin-left: 65px;
+    color: #7A8285;
+}
+
+.skills > ul > li{
+    margin-top:10px;
+    padding:5px;
+    margin-left: 40px;
+}
+.getintouch-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    height: 55vh;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+}
+.header{
+    font-family: sans-serif;
+    color: #89767B;
+    font-size: 30px;
+}
+.subhead{
+    margin-left:65px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+
+.footer-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap:80px;
+    background-color:#7B8976;
+}
